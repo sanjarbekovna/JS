@@ -7,22 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    
-<h2>JavaScript in Body</h2>
+
+    <h1>JavaScript String Operators</h1>
+<h2>The += Operator</h2>
+<p>The assignment operator += can concatenate strings.</p>
 
 <p id="demo"></p>
 
-<p id="plus"></p>
+
 
 <script>
-document.getElementById("demo").innerHTML = "My First JavaScript";
-document.getElementById('plus').innerHTML = "5+6";
+
+let text1 = "What a very";
+text1 += "nice day";
+document.getElementById("demo").innerHTML = text1
 </script>
-
-
-<h2>What Can JavaScript Do?</h2>
-<p id="demo2">JavaScript can change HTML content.</p>
-<button type="button" onclick='document.getElementById("demo2").innerHTML= "Hello JavaScript!"'>Click Me!</button>
 
 </body>
 </html>

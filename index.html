@@ -7,6 +7,57 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ab rem asperiores! Ut animi in nemo esse voluptatem, repellendus doloremque?</p>
+    <h2>JavaScript Statements</h2>
+
+    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+    
+    <p id="demo"></p>
+    
+
+    <script>
+        let x, y, z;
+        x = 6;
+        y = 4;
+        z = x + y
+        document.getElementById("demo").innerHTML= "the value of z is "  + z + "."
+    </script>
+  
+  <p id="demo1"></p>
+    <script>
+        document.getElementById("demo1").innerHTML="hello.";
+    </script>
+
+
+   <p id="anido"></p>
+   <p id="anido1"></p>
+   <p id="anido2"></p>
+   <p id="anido3"></p>
+   <p id="anido4"></p>
+
+   <script>
+    const fruits =["appel", "banana", "kivi"];
+
+    fruits[0] = "olma"
+
+    fruits[1] = "ananas"
+
+    fruits.push("avakado")
+
+    document.getElementById("anido").innerHTML = fruits;
+
+    console.log(fruits);
+
+
+    const iphone = { type:"15 pro max",  memory:"4 TB" , color: "black"}
+
+   document.getElementById("anido1").innerHTML = iphone.type;
+
+   document.getElementById("anido2").innerHTML = iphone.memory;
+
+   document.getElementById("anido3").innerHTML = iphone.color;
+
+   document.getElementById("anido4").innerHTML = "Nomi:" +    iphone.type + " " +  "Memoryri:" + iphone.memory + " " + iphone.color
+   </script>
+
 </body>
 </html>
